@@ -9,8 +9,8 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
-    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, sans-serif;
     
     /* MEMBUAT FORM PAS DI TENGAH */
     display: flex;
