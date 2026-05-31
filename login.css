@@ -18,7 +18,7 @@ body {
     align-items: center;
     
     /* MENAMPILKAN BACKGROUND GAMBAR */
-    background-image: url("JP 32 UTAMA - Copy.png"); /* <-- Ganti dengan nama file gambarmu */
+    background-image: url("JP 32 UTAMA - Copy"); /* <-- Ganti dengan nama file gambarmu */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
