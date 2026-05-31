@@ -7,22 +7,14 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Roboto, sans-serif;
-    
-    /* MEMBUAT FORM PAS DI TENGAH */
+    background: url('f:\JP 32 TERPECAYA.png') no-repeat center center/cover;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    /* MENAMPILKAN BACKGROUND GAMBAR */
-    background-image: url("https://github.com/JP32-coder/JP32-TERPECAYA/blob/186e2a1ad4aaa52a2dda9fce9d8b99b3c59c1045/JP%2032%20UTAMA%20-%20Copy.png"); /* <-- Ganti dengan nama file gambarmu */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    overflow: hidden;
+    background-color: #050508;
 }
 
 /* Navigasi Atas */
