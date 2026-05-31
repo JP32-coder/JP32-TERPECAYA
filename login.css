@@ -7,7 +7,7 @@
 }
 
 body {
-    background: url('JP 32 UTAMA - Copy.png') no-repeat center center/cover;
+    background: url('JP 32 UTAMA - Copy.png')
     height: 100vh;
     display: flex;
     flex-direction: column;
