@@ -7,14 +7,22 @@
 }
 
 body {
-    background: url('JP 32 UTAMA - Copy.png') no-repeat center center/cover;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    
+    /* MEMBUAT FORM PAS DI TENGAH */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    background-color: #050508;
+    
+    /* MENAMPILKAN BACKGROUND GAMBAR */
+    background-image: url("nama-gambar-kamu.jpg"); /* <-- Ganti dengan nama file gambarmu */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Navigasi Atas */
